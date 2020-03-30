@@ -26,7 +26,6 @@
 	<link rel="shortcut icon" href="image/favicon.ico">
 	<link rel="canonical" href="https://www.hcbusiness.com.br">
 	<link rel="stylesheet" href="css/geral.css">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!-- schema.org início -->
 	<script type="application/ld+json" async>

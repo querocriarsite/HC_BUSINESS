@@ -9,7 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     border: none;
-    text-decoration-style: none;
+    text-decoration: none;
     list-style: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -22,6 +22,7 @@ a {
 
 a:link,
 a:active,
+a:hover
 a {
     color: #000;
 }
@@ -36,7 +37,7 @@ header {
     grid-area: 1/1/1/25;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    background-color: #ffffffb8!important;
+    background-color: #ffffffb8 !important;
     box-shadow: 0 0 9px #696969;
     z-index: 1000;
     height: 62px;
@@ -100,7 +101,7 @@ header {
     color: yellow;
     background: linear-gradient(20deg, #042132, #1db5e6);
     transform: scale(.985);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .textobanner a {
@@ -568,12 +569,12 @@ main p {
 
     .logo {
         grid-area: 1/1/1/13;
-    text-align: left;
-    position: absolute;
-    z-index: 9000;
-    margin: auto 0;
-    padding: 5px;
-    padding-left: 20px;
+        text-align: left;
+        position: absolute;
+        z-index: 9000;
+        margin: auto 0;
+        padding: 5px;
+        padding-left: 20px;
     }
 
     .logo img {
@@ -956,5 +957,5 @@ footer {
 /* footer fim */
 
 .textobanner a {
-margin: 0 auto!important;
+    margin: 0 auto !important;
 }
